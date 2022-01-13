@@ -3,15 +3,15 @@
 
  
  ## Goal 
- Compare performance of 2 VLSI implementation of square root operation in Verilog based on the pipelined multiplier to calculate vector length. 
+ Compare performance of 2 VLSI implementation of **square root operation** in Verilog based on the **pipelined multiplier** to calculate vector length. 
   
   ## Description
-I implemented Baysiean optimization algorithm with gaussian model to sample the possible combinations of hyperparamters in KNN model. The dataset was created randomly with 5 cluster with 2D feature (a.k.a number of features is two), which were not disclosed in the real scenario in training process. I randomly sampled 50 combinations of hyperparameters to make the gaussian model efficienly simulate the relationship between hypermeters and overall performance of the KNN model. Through simulation with Baysiean optimization (maximizing the posterior probility), instead of training to get the real data of the model performation, which is time-comsuming.
+ In this project, I implemented pipelined interger multiplier by using severals registers to store the intermediate result in `mult_man.v` and square root operation by binary search in `sqrt.v`. In order to compare the efficiency of binary search and its possible drawbacks, I compared my implementation with [A new non-restoring square root algorithm and its VLSI implementations](https://ieeexplore.ieee.org/document/563604) in `function` in `vector_len.v`. I also wrote `test.tb` to test if signal being raised (espicaiily the **ready signal** after operation) at the anticipated time, and reset all all the value stored in registers to zero before new round of vector length calculation round. 
 
-
+ ## Result
  <p align="center">
  
-| Input vector    | Enable time  | A      | Binary search |
+| Input vector    | Enable time  | Non-restoring square root | Binary search sqaure root |
 |:---------------:|:------------:| :-----:| :------------:|
 | input=(25,5)    | 60 ps        | 195 ps |355 ps         | 
 | input=(16,10)   | 523 ps       | 655 ps | 817 ps        |
