@@ -9,7 +9,7 @@
  In this project, I implemented pipelined interger multiplier by using severals registers to store the intermediate result in `mult_man.v` and square root operation by binary search in `square_root.v`. In order to compare the efficiency of binary search and its possible drawbacks, I compared my implementation with [A new non-restoring square root algorithm and its VLSI implementations](https://ieeexplore.ieee.org/document/563604) in `function` in `vector_len.v`. I also wrote `test.tb` to test if signal being raised (espicaiily the **ready signal** after operation) at the anticipated time, and reset all all the value stored in registers to zero before new round of vector length calculation round. 
 
  ## Result
- I used ModelSim to compile and simulate VLSI implementation, and the result of simulation was showned below. Obviously, the Binary search square is not the reasonable way to calculate sqaue root, because its involed multiple time-consumming multiplication operation and comparison to determine the range being search in next next round. **Most importantly**, it is hardly to be pipelined, making the operation behind it will be **postponed**.
+ I used ModelSim to compile and simulate VLSI implementation, and the result of simulation was showned below. Obviously, the Binary search square is not the reasonable way to calculate sqaue root, because its involed multiple time-consumming multiplication operation and comparison to determine the range being search in next next round. **Most importantly**, it is hardly to be pipelined, making the operation behind it to be **postponed**.
  <p align="center">
  
 | Input vector    | Enable time  | Non-restoring square root finish time | Binary search sqaure root finish time|
