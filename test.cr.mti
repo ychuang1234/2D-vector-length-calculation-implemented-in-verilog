@@ -1,0 +1,52 @@
+C:/Users/ychuang/Desktop/verilog/7.2fir-paral/mult_man.v {1 {vlog -work work -vopt -stats=none C:/Users/ychuang/Desktop/verilog/7.2fir-paral/mult_man.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module mult_man
+
+Top level modules:
+	mult_man
+
+} {} {}} C:/Users/ychuang/Desktop/verilog/7.2fir-paral/mult_cell.v {1 {vlog -work work -vopt -stats=none C:/Users/ychuang/Desktop/verilog/7.2fir-paral/mult_cell.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module mult_cell
+
+Top level modules:
+	mult_cell
+
+} {} {}} C:/Users/ychuang/Desktop/verilog/7.2fir-paral/divider_man.v {1 {vlog -work work -vopt -stats=none C:/Users/ychuang/Desktop/verilog/7.2fir-paral/divider_man.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module divider_man
+
+Top level modules:
+	divider_man
+
+} {} {}} C:/Users/ychuang/Desktop/verilog/7.2fir-paral/divider_cell.v {1 {vlog -work work -vopt -stats=none C:/Users/ychuang/Desktop/verilog/7.2fir-paral/divider_cell.v
+
+} {} {}} C:/Users/ychuang/Desktop/verilog/7.2fir-paral/fir_guide.v {1 {vlog -work work -vopt -stats=none C:/Users/ychuang/Desktop/verilog/7.2fir-paral/fir_guide.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module fir_guide
+
+Top level modules:
+	fir_guide
+
+} {} {}} C:/Users/ychuang/Desktop/verilog/7.2fir-paral/mult_low.v {1 {vlog -work work -vopt -stats=none C:/Users/ychuang/Desktop/verilog/7.2fir-paral/mult_low.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module mult_low
+
+Top level modules:
+	mult_low
+
+} {} {}} C:/Users/ychuang/Desktop/verilog/7.2fir-paral/test.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/ychuang/Desktop/verilog/7.2fir-paral/test.sv
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} C:/Users/ychuang/Desktop/verilog/7.2fir-paral/square_root.v {1 {vlog -work work -vopt -stats=none C:/Users/ychuang/Desktop/verilog/7.2fir-paral/square_root.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module sqrt32
+
+Top level modules:
+	sqrt32
+
+} {} {}}
