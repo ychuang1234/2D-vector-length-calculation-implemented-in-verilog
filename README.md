@@ -19,12 +19,12 @@
  
 </p>
  
- *This is the simulation result for input vector (25,5):
+ * This is the simulation result for input vector (25,5):
 <p align="center">
  <img src="https://github.com/ychuang1234/2D-vector-length-calculation-implemented-in-verilog/blob/5c9cd49b196f881f23c33c66eff427be8b669188/result1.JPG" height="80%">
  </p>
  
- *This is the simulation result for input vector (16,10): 
+ * This is the simulation result for input vector (16,10): 
  <p align="center">
  <img src="https://github.com/ychuang1234/2D-vector-length-calculation-implemented-in-verilog/blob/5c9cd49b196f881f23c33c66eff427be8b669188/result2.JPG" height="80%">
  </p>
