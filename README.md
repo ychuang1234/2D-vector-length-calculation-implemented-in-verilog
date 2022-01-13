@@ -1,6 +1,14 @@
-# 2D vector length calculation implemented in verilog
+<h1 align="left">2D vector length calculation implemented in verilog</h1>
+<h2 align="center">  
+
  
- 
+ ## Goal 
+ Compare performance of 2 VLSI implementation of square root operation in Verilog based on the pipelined multiplier to calculate vector length. 
+  
+  ## Description
+I implemented Baysiean optimization algorithm with gaussian model to sample the possible combinations of hyperparamters in KNN model. The dataset was created randomly with 5 cluster with 2D feature (a.k.a number of features is two), which were not disclosed in the real scenario in training process. I randomly sampled 50 combinations of hyperparameters to make the gaussian model efficienly simulate the relationship between hypermeters and overall performance of the KNN model. Through simulation with Baysiean optimization (maximizing the posterior probility), instead of training to get the real data of the model performation, which is time-comsuming.
+
+
  <p align="center">
  
 | Input vector    | Enable time  | A      | Binary search |
@@ -11,7 +19,7 @@
 </p>
  
  
-<p align="left">
- <img src=https://github.com/ychuang1234/0-1-Knapsack-problem-with-binomial-tree-compression-and-quantization/blob/2b3796104b9c9fe68211f2cecdfa33ffc9f4c052/result1.JPG " width="45%" height="50%">
-  <img src=https://github.com/ychuang1234/0-1-Knapsack-problem-with-binomial-tree-compression-and-quantization/blob/2b3796104b9c9fe68211f2cecdfa33ffc9f4c052/result2.JPG " width="45%" height="50%">
- </p>
+<p align="center">
+ <img src="https://github.com/ychuang1234/2D-vector-length-calculation-implemented-in-verilog/blob/5c9cd49b196f881f23c33c66eff427be8b669188/result1.JPG" height="80%">
+ <img src="https://github.com/ychuang1234/2D-vector-length-calculation-implemented-in-verilog/blob/5c9cd49b196f881f23c33c66eff427be8b669188/result2.JPG" height="80%">
+</p>
